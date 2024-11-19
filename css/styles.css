@@ -1,0 +1,107 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+header nav a.active, header nav a:hover {
+    background-color: #66BB6A;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 推薦卡片樣式 */
+.recommendation-section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.recommendation-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.recommendation-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+    padding: 15px;
+    text-align: left;
+}
+
+.card-content h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #4CAF50;
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #66BB6A;
+}
+
+/* 頁腳樣式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4CAF50;
+    color: #fff;
+}
